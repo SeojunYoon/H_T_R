@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jul"
+    tools:context=".July">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="살충제통"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="303dp"
+        android:layout_height="289dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="#000000"
+        android:text="갈수록 많아지는 해충들과 각각 다른 벌레들!\n 항상 밖에 있다면 괜찮겠는데 모기나 똥파리 같은 벌레들이 항상 집 안으로 들어와 문제입니다. 이러한 벌레들을 죽이는 아주 획기적인 물건이 있죠. 바로 살충제통! 살충제통은 과연 어떻게 분리수거 해야할까요?\n\n 살충제통은 캔 몸통에 구멍을 뚫어 내용물을 비운 후 배출해야 합니다. 하지만 여기서 주의해야 할 점 한가지가 있습니다. 바로 살충제통을 감싸는 알루미늄의 껍질인데요, 이것을 완전히 벗기고 분리수거 해주셔야 완벽히 분리수거 했다고 할 수 있습니다. (가스통이나 페브리즈 등에도 모두 적용 됩니다.) "
+        android:textColor="#ffffff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:alpha="0.5" />
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aug"
+    tools:context=".August">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="쿨팩"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+<TextView
+android:id="@+id/textView"
+android:layout_width="303dp"
+android:layout_height="207dp"
+android:layout_marginStart="8dp"
+android:layout_marginLeft="8dp"
+android:layout_marginTop="8dp"
+android:layout_marginEnd="8dp"
+android:layout_marginRight="8dp"
+android:layout_marginBottom="8dp"
+android:background="#D8D8D8"
+android:text="
+겨울엔 핫팩이 있다면 여름엔 쿨팩도 잇죠! 쿨팩 역시 핫팩처럼 일반쓰레기에 버려야 하는데, 그전에 거쳐야 할 단계가 있습니다.\n\nn
+
+ 바로 햇빛이 잘 비치는 곳에 놓아주는 것 입니다. 수분이 건조되고 양이 줄어들게 되면, 이때 내용물은 종량제 봉투에 버리고 비닐 물로 한번 헹궈준 다음 분리수거를 해주면 됩니다.\n\n
+
+*아이스팩 한쪽을 잘라 내용물을 용기에 담은 후 굵은 소금을 뿌려 액체상태로 변하게 하여 화장실에 버리는 사람들도 있지만 아이스팩 같은 고분자화합물은 위 내용처럼 버리시
+면 안됩니다*
+"
+android:textColor="#000000"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintEnd_toEndOf="parent"
+app:layout_constraintStart_toStartOf="parent"
+app:layout_constraintTop_toTopOf="parent"
+tools:alpha="0.5" />
+    </android.support.constraint.ConstraintLayout>
